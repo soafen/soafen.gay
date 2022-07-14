@@ -1,0 +1,7 @@
+body { background-image: url('../img/background.webp'); background-size: 160%; text-align: center; font-family:'Comic Sans MS', 'Comic Sans', 'Marker Felt', sans-serif; }
+.logo { -webkit-text-stroke: 1.5px #fff; font-size: 60px;}
+.marquee { overflow: hidden; height: 300px; position: relative; color: #333; }
+.marquee img { position: absolute; width: 100%; height: 100%; margin: 0; line-height: 50px; text-align: center; -moz-transform: translateX(200%); -webkit-transform: translateX(200%); transform: translateX(200%); -moz-animation: scroll-left 2s linear infinite; -webkit-animation: scroll-left 2s linear infinite; animation: scroll-left 2s linear infinite; }
+@keyframes scroll-left { 0% { -moz-transform: translateX(200%); -webkit-transform: translateX(200%); transform: translateX(200%); } 100% { -moz-transform: translateX(-200%); -webkit-transform: translateX(-200%); transform: translateX(-200%); } }
+.mii1{position:absolute;left:5%;width:100px;} .mii2{position:absolute;left:12%;width:100px;} .mii3{position:absolute;left:19%;width:100px;} .mii4{position:absolute;left:26%;width:100px;} .mii5{position:absolute;left:33%;width:100px;} .mii6{position:absolute;left:40%;width:100px;} .mii7{position:absolute;left:47%;width:100px;}
+a { color: #fff; text-decoration: none; font-size: 36px; font-weight: bold;}
